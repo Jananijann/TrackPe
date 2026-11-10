@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+ios/Pods/
+
+# Build outputs
+android/build/
+android/app/build/
+ios/build/
+ios/DerivedData/
+
+# Generated / compiled
+*.jsbundle
+*.map
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Caches
+.gradle/
+.yarn/cache/
+.jest-cache/
+coverage/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
